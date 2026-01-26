@@ -124,7 +124,7 @@ This project demonstrates my practical experience in:
 
 - Engineering-oriented ML development
 
-# Project structure:
+# Project structure
 
 utils.py     - creating directories for files
 
