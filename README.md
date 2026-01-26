@@ -78,6 +78,16 @@ It can be applied in:
 
         🔴 Red — defective seed
 
+# Flowchart
+
+<p align="center">
+<img src="images/flowchart.png" width="500">
+</p>
+   
+<p align="center">
+<em>Figure 5 - Flowchart of application</em>
+</p>
+
 # Frameworks
 
 * TensorFlow / Keras
@@ -113,6 +123,38 @@ This project demonstrates my practical experience in:
 - Image processing and post-processing algorithms
 
 - Engineering-oriented ML development
+
+# Project structure:
+
+utils.py     - creating directories for files
+
+processor.py            - finding contours on image and cropping function
+
+main.py - initialisation of applicaton
+
+gui.py - outlook of the application
+
+classifier.py  - classificator (pre-trained model)
+
+UNET/ - pre-trained model for segmentation
+
+test/ - images for testing
+
+segmentation/ 
+
+loader.py - load images
+
+model.py - model for segmentation
+
+postprocess.py - post-edit of generated mask
+
+service.py - initialisation of segmentation process
+
+Model_of_Classificator/ - pre-trained model for classification
+
+data/classification/unknown - storage for classification cropped images
+
+
 
 
 
